@@ -1,0 +1,17 @@
+.single-gallery {
+  width: 370px;
+  height: 270px;
+  margin-right:30px;
+  margin-bottom: 30px;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  position: relative;
+  &:last-child {
+    margin-right: 0;
+  }
+  &:hover{
+        transform: scale(1.1);
+        transition:.3s;
+    }
+  }

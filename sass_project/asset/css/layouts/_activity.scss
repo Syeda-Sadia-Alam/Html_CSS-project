@@ -1,0 +1,26 @@
+.single-activity {
+    width: 370px;
+    height: 270px;
+    margin-right:30px;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-position: center;
+    float: left;
+    position: relative;
+    &:last-child {
+      margin-right: 0;
+    }
+    h4 {
+      background-color: $primary_color;
+      text-align: center;
+      padding: 10px;
+      font-size: 20px;
+      text-transform: capitalize;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      color: $white;
+     
+    }
+  }

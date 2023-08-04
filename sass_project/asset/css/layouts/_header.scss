@@ -1,0 +1,43 @@
+
+.header-area{
+    padding:20px 0;
+
+.logo {
+    float: left;
+    width: 200px;
+
+ a{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size:26px;
+    color:$primary_color;
+}
+}
+
+
+.menu {
+    float: right;
+    width: 970PX;
+    margin-left: 25px;
+
+ul {
+     text-align: right;
+
+li{
+    display:inline-block;
+    margin-left: 20px;
+
+ a{
+    margin-left: 20px;
+    font-size:18px;
+    font-weight:500;
+    color:$black;
+
+ &:hover{
+    color: $primary_color;
+}
+}
+}
+}
+}
+}

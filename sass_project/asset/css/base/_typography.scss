@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+$sizes: (h1, 40px, 48px, 700), (h2, 32px, 40px, 600), (h3, 28px, 36px, 500), (h4, 24px, 32px, 500), (h5, 20px, 28px, 500), (h6, 16px, 24px, 400), (p, 16px, 24px, 400);
+
+@each $name, $font_size, $line_height, $font_weight in $sizes {
+    #{$name} {
+        font-size: $font_size;
+        line-height: $line_height;
+        font-weight: $font_weight;
+    }
+}
+
+$transforms: uppercase, lowercase, capitalize;
+
+@each $transform in $transforms {
+    .text-#{$transform} {
+        text-transform: $transform;
+    }
+}
+
+$aligns: left, center, right, justify;
+
+@each $align in $aligns {
+    .text-#{$align} {
+        text-align: $align;
+    }
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    line-height: 24px;
+
+}
